@@ -15,6 +15,10 @@ $$;
 
 -- Use this procedure by calling it: CALL add_numbers(5, 10);
 
+CREATE OR REPLACE TABLE TEST(
+    id number, name varchar(20)
+);
+
 CREATE OR REPLACE PROCEDURE minus_numbers(num1 INTEGER, num2 INTEGER)
 RETURNS INTEGER
 LANGUAGE SQL
