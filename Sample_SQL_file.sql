@@ -15,7 +15,7 @@ $$;
 
 -- Use this procedure by calling it: CALL add_numbers(5, 10);
 
-CREATE OR REPLACE PROCEDURE diff_numbers(num1 INTEGER, num2 INTEGER)
+CREATE OR REPLACE PROCEDURE minus_numbers(num1 INTEGER, num2 INTEGER)
 RETURNS INTEGER
 LANGUAGE SQL
 AS
